@@ -9,7 +9,7 @@ To read a file, you must earn the cat's affection. The more love you have, the m
 ## 📦 Installation
 
 ```bash
-git clone https://github.com
+git clone https://github.com/FelineFantasy/CatGuard
 cd CatGuard
 chmod +x install.sh
 ./install.sh
