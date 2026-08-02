@@ -20,6 +20,7 @@ chmod +x install.sh
 ## 🎮 How It Works
 
 - `погладить` — increases the love level by 1
+- `любовь` - shows the current level of love
 - `cat <file>` — requires 3 love units to read the file
 - `grep`, `sed`, `awk`, `more`, `tail`, `head`, `tac`, `perl` — require 10 love units
 

@@ -51,6 +51,10 @@ _check_love() {
     echo "🐱 Мур-р-р! Кот доволен. Любовь +1 (Всего: $((current + 1)))"
 }
 
+любовь() {
+    echo "🐱 Текущий уровень любви: $(_get_love)"
+}
+
 function cat {
     if _check_love 3; then
         command cat "$@"
