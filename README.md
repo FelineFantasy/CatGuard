@@ -55,6 +55,8 @@ $ cat notes.txt
 
 ```text
 CatGuard/
+├── .github/
+│   └── FUNDING.yml
 ├── install.sh
 ├── uninstall.sh
 ├── README.md
