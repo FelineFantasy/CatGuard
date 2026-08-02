@@ -19,7 +19,7 @@ chmod +x install.sh
 
 ## 🎮 How It Works
 
-- `pet` — increases the love level by 1
+- `погладить` — increases the love level by 1
 - `cat <file>` — requires 3 love units to read the file
 - `grep`, `sed`, `awk`, `more`, `tail`, `head`, `tac`, `perl` — require 10 love units
 
@@ -37,16 +37,16 @@ chmod +x install.sh
 
 ```bash
 $ cat notes.txt
-🐾 A cat has blocked your path! Not enough love. Required: 3, you have: 0.
-Pet the cat using the 'pet' command.
+🐾 Кот преградил вам путь! Недостаточно любви. Нужно: 3, у вас: 0.
+Погладьте кота командой 'погладить'.
 
-$ pet
-🐱 Purr! The cat is pleased. Love +1 (Total: 1)
+$ погладить
+🐱 Мур-р-р! Кот доволен. Любовь +1 (Всего: 1)
 
 $ cat notes.txt
-1. Water the cat
-2. Plant the dishes
-3. Feed the flowers
+1. Полить кота
+2. Посадить посуду
+3. покормить цветы
 ```
 
 ---
