@@ -1,0 +1,13 @@
+# Files created by CatGuard
+.cat_love_score
+
+# Temporary files
+*.tmp
+*.log
+
+# Configs (if custom)
+*.local
+
+# System files
+.DS_Store
+Thumbs.db
