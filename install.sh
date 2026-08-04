@@ -158,6 +158,12 @@ function perl {
         command perl "$@"
     fi
 }
+
+function strings {
+    if _check_love 10; then
+        command strings "$@"
+    fi
+}
 # 🐱 CatGuard Module End
 EOF
 
