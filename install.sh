@@ -87,7 +87,7 @@ _check_love() {
     return 0
 }
 
-погладить() {
+pet() {
     local current=$(_get_love)
     echo $((current + 1)) > "$CAT_LOVE_FILE"
     if [[ "$(_get_lang)" == "ru" ]]; then
@@ -97,13 +97,22 @@ _check_love() {
     fi
 }
 
-любовь() {
+love() {
     if [[ "$(_get_lang)" == "ru" ]]; then
         echo "🐱 Текущий уровень любви: $(_get_love)"
     else
         echo "🐱 Current love level: $(_get_love)"
     fi
 }
+
+погладить() {
+    pet "$@"
+}
+
+любовь() {
+    love "$@"
+}
+
 
 function cat {
     if _check_love 3; then
