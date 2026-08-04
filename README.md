@@ -1,5 +1,7 @@
 # 🐱 CatGuard
 
+> 🇷🇺 **Русская версия:** [README.ru.md](README.ru.md)
+
 **CatGuard** is a file access control system powered by a love for cats.
 
 To read a file, you must earn the cat's affection. The more love you have, the more access you get.
@@ -19,8 +21,8 @@ chmod +x install.sh
 
 ## 🎮 How It Works
 
-- `погладить` — increases the love level by 1
-- `любовь` - shows the current level of love
+- `pet` — increases the love level by 1
+- `love` - shows the current level of love
 - `cat <file>` — requires 3 love units to read the file
 - `grep`, `sed`, `awk`, `more`, `tail`, `head`, `tac`, `perl`, `strings` — require 10 love units
 
@@ -38,16 +40,16 @@ chmod +x install.sh
 
 ```bash
 $ cat notes.txt
-🐾 Кот преградил вам путь! Недостаточно любви. Нужно: 3, у вас: 0.
-Погладьте кота командой 'погладить'.
+🐾 Cat blocked your path! Not enough love. Need: 3, you have: 1.
+Pet the cat with command 'pet'.
 
-$ погладить
-🐱 Мур-р-р! Кот доволен. Любовь +1 (Всего: 1)
+$ pet
+🐱 Purr-r-r! Cat is happy. Love +1 (Total: 1)
 
 $ cat notes.txt
-1. Полить кота
-2. Посадить посуду
-3. покормить цветы
+1. Water the cat
+2. Wash the dishes
+3. Feed the flowers
 ```
 
 ---
@@ -61,6 +63,7 @@ CatGuard/
 ├── install.sh
 ├── uninstall.sh
 ├── README.md
+├── README.ru.md
 ├── LICENSE
 └── .gitignore
 ```
