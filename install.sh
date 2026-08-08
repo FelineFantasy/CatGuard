@@ -181,5 +181,5 @@ msg "Перезагрузите терминал или выполните: sour
 if [[ "$LANG_SYS" == "ru" ]]; then
     echo "Теперь вы можете использовать команду 'погладить' и любовь кота!"
 else
-    echo "Now you can use command 'погладить' and cat love!"
+    echo "Now you can use command 'pet' and cat love!"
 fi
