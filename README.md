@@ -68,7 +68,18 @@ CatGuard/
 └── .gitignore
 ```
 
----
+## 💖 Support the Project
+
+If you enjoy **CatGuard** and want to help keep the project alive, you can support me here:
+
+[![DonationAlerts](https://img.shields.io/badge/DonationAlerts-Support-blue.svg)](https://www.donationalerts.com/r/FelineFantasy)
+
+Your support helps me:
+- 🐱 Add new features and cat interactions
+- 🛠️ Fix bugs and improve performance
+- ☕ Stay awake while coding at 4 AM
+
+Every little bit is appreciated! ❤️
 
 ## 👤 Author
 
