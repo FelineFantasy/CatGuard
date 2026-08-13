@@ -117,64 +117,133 @@ love() {
     love "$@"
 }
 
-
 function cat {
+    local before=$(_get_love)
     if _check_love 3; then
         command cat "$@"
+        local exit_code=$?
+        if [ $exit_code -ne 0 ]; then
+            echo $((before)) > "$CAT_LOVE_FILE"
+            _msg "😿 Кот вернул любовь (ошибка)" "😿 Cat returned love (error)"
+        fi
+        return $exit_code
     fi
 }
 
 function grep {
+    local before=$(_get_love)
     if _check_love 10; then
         command grep "$@"
+        local exit_code=$?
+        if [ $exit_code -ne 0 ]; then
+            echo $((before)) > "$CAT_LOVE_FILE"
+            _msg "😿 Кот вернул любовь (ошибка)" "😿 Cat returned love (error)"
+        fi
+        return $exit_code
     fi
 }
 
 function sed {
+    local before=$(_get_love)
     if _check_love 10; then
         command sed "$@"
+        local exit_code=$?
+        if [ $exit_code -ne 0 ]; then
+            echo $((before)) > "$CAT_LOVE_FILE"
+            _msg "😿 Кот вернул любовь (ошибка)" "😿 Cat returned love (error)"
+        fi
+        return $exit_code
     fi
 }
 
 function awk {
+    local before=$(_get_love)
     if _check_love 10; then
         command awk "$@"
+        local exit_code=$?
+        if [ $exit_code -ne 0 ]; then
+            echo $((before)) > "$CAT_LOVE_FILE"
+            _msg "😿 Кот вернул любовь (ошибка)" "😿 Cat returned love (error)"
+        fi
+        return $exit_code
     fi
 }
 
 function more {
+    local before=$(_get_love)
     if _check_love 10; then
         command more "$@"
+        local exit_code=$?
+        if [ $exit_code -ne 0 ]; then
+            echo $((before)) > "$CAT_LOVE_FILE"
+            _msg "😿 Кот вернул любовь (ошибка)" "😿 Cat returned love (error)"
+        fi
+        return $exit_code
     fi
 }
 
 function tail {
+    local before=$(_get_love)
     if _check_love 10; then
         command tail "$@"
+        local exit_code=$?
+        if [ $exit_code -ne 0 ]; then
+            echo $((before)) > "$CAT_LOVE_FILE"
+            _msg "😿 Кот вернул любовь (ошибка)" "😿 Cat returned love (error)"
+        fi
+        return $exit_code
     fi
 }
 
 function head {
+    local before=$(_get_love)
     if _check_love 10; then
         command head "$@"
+        local exit_code=$?
+        if [ $exit_code -ne 0 ]; then
+            echo $((before)) > "$CAT_LOVE_FILE"
+            _msg "😿 Кот вернул любовь (ошибка)" "😿 Cat returned love (error)"
+        fi
+        return $exit_code
     fi
 }
 
 function tac {
+    local before=$(_get_love)
     if _check_love 10; then
         command tac "$@"
+        local exit_code=$?
+        if [ $exit_code -ne 0 ]; then
+            echo $((before)) > "$CAT_LOVE_FILE"
+            _msg "😿 Кот вернул любовь (ошибка)" "😿 Cat returned love (error)"
+        fi
+        return $exit_code
     fi
 }
 
 function perl {
+    local before=$(_get_love)
     if _check_love 10; then
         command perl "$@"
+        local exit_code=$?
+        if [ $exit_code -ne 0 ]; then
+            echo $((before)) > "$CAT_LOVE_FILE"
+            _msg "😿 Кот вернул любовь (ошибка)" "😿 Cat returned love (error)"
+        fi
+        return $exit_code
     fi
 }
 
 function strings {
+    local before=$(_get_love)
     if _check_love 10; then
         command strings "$@"
+        local exit_code=$?
+        if [ $exit_code -ne 0 ]; then
+            echo $((before)) > "$CAT_LOVE_FILE"
+            _msg "😿 Кот вернул любовь (ошибка)" "😿 Cat returned love (error)"
+        fi
+        return $exit_code
     fi
 }
 # 🐱 CatGuard Module End
