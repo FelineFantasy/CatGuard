@@ -79,7 +79,7 @@ _check_love() {
             echo "Погладьте кота командой 'погладить'."
         else
             echo "🐾 Cat blocked your path! Not enough love. Need: $cost, you have: $current."
-            echo "Pet the cat with command 'погладить'."
+            echo "Pet the cat with command 'pet'."
         fi
         return 1
     fi
@@ -90,10 +90,14 @@ _check_love() {
 pet() {
     local current=$(_get_love)
     echo $((current + 1)) > "$CAT_LOVE_FILE"
-    if [[ "$(_get_lang)" == "ru" ]]; then
-        echo "🐱 Мур-р-р! Кот доволен. Любовь +1 (Всего: $((current + 1)))"
+    local phrases_ru=("Мур-р-р!" "Мяу! 😸" "Кот довольно жмурится" "Трётся об ногу" "Мурлычет как трактор")
+    local phrases_en=("Purr-r-r!" "Meow! 😸" "Cat squints with pleasure" "Rubs against your leg" "Purrs like a tractor")
+    local lang=$(_get_lang)
+    local idx=$((RANDOM % 5))
+    if [[ "$lang" == "ru" ]]; then
+        echo "🐱 ${phrases_ru[$idx]} Любовь +1 (Всего: $((current + 1)))"
     else
-        echo "🐱 Purr-r-r! Cat is happy. Love +1 (Total: $((current + 1)))"
+        echo "🐱 ${phrases_en[$idx]} Love +1 (Total: $((current + 1)))"
     fi
 }
 
