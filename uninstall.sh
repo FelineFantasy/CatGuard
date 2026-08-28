@@ -42,7 +42,12 @@ if [[ "$answer" != "y" && "$answer" != "Y" ]]; then
     exit 0
 fi
 
-sed -i '/# 🐱 CatGuard Module Start/,/# 🐱 CatGuard Module End/d' "$CONFIG_FILE"
+if [[ "$OSTYPE" == "darwin"* ]]; then
+    sed -i '' '/# 🐱 CatGuard Module Start/,/# 🐱 CatGuard Module End/d' "$CONFIG_FILE"
+else
+    # Linux: расширение необязательно
+    sed -i '/# 🐱 CatGuard Module Start/,/# 🐱 CatGuard Module End/d' "$CONFIG_FILE"
+fi
 
 if [ -f "$HOME/.cat_love_score" ]; then
     rm "$HOME/.cat_love_score"
