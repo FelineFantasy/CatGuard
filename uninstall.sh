@@ -45,7 +45,6 @@ fi
 if [[ "$OSTYPE" == "darwin"* ]]; then
     sed -i '' '/# 🐱 CatGuard Module Start/,/# 🐱 CatGuard Module End/d' "$CONFIG_FILE"
 else
-    # Linux: расширение необязательно
     sed -i '/# 🐱 CatGuard Module Start/,/# 🐱 CatGuard Module End/d' "$CONFIG_FILE"
 fi
 
