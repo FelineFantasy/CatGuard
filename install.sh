@@ -39,6 +39,11 @@ if grep -q "# 🐱 CatGuard Module Start" "$CONFIG_FILE" 2>/dev/null; then
     sed -i '/# 🐱 CatGuard Module Start/,/# 🐱 CatGuard Module End/d' "$CONFIG_FILE"
 fi
 
+if [ ! -w "$CONFIG_FILE" ] && [ ! -w "$(dirname "$CONFIG_FILE")" ]; then
+    msg "Нет прав на запись в $CONFIG_FILE" "No write permission for $CONFIG_FILE"
+    exit 1
+fi
+
 cat >> "$CONFIG_FILE" << 'EOF'
 
 # 🐱 CatGuard Module Start
