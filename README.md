@@ -1,5 +1,14 @@
 # 🐱 CatGuard
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Shell: Bash](https://img.shields.io/badge/Shell-Bash-4EAA25.svg?logo=gnu-bash&logoColor=white)](https://www.gnu.org/software/bash/)
+[![Platform: Linux](https://img.shields.io/badge/Platform-Linux-FCC624.svg?logo=linux&logoColor=black)](https://www.kernel.org/)
+[![DonationAlerts](https://img.shields.io/badge/DonationAlerts-Support-blue.svg)](https://www.donationalerts.com/r/FelineFantasy)
+[![GitHub stars](https://img.shields.io/github/stars/FelineFantasy/CatGuard?style=social)](https://github.com/FelineFantasy/CatGuard/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/FelineFantasy/CatGuard?style=social)](https://github.com/FelineFantasy/CatGuard/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/FelineFantasy/CatGuard)](https://github.com/FelineFantasy/CatGuard/issues)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/FelineFantasy/CatGuard/pulls)
+
 > 🇷🇺 **Русская версия:** [README.ru.md](README.ru.md)
 
 **CatGuard** is a file access control system powered by a love for cats.
@@ -19,16 +28,16 @@ chmod +x install.sh
 
 ---
 
-## 🎮 How It Works
+🎮 How It Works
 
-- `pet` — increases the love level by 1
-- `love` - shows the current level of love
-- `cat <file>` — requires 3 love units to read the file
-- `grep`, `sed`, `awk`, `more`, `tail`, `head`, `tac`, `perl`, `strings` — require 10 love units
+· pet — increases the love level by 1
+· love - shows the current level of love
+· cat <file> — requires 3 love units to read the file
+· grep, sed, awk, more, tail, head, tac, perl, strings — require 10 love units
 
 ---
 
-## 🧹 Uninstallation
+🧹 Uninstallation
 
 ```bash
 ./uninstall.sh
@@ -36,7 +45,7 @@ chmod +x install.sh
 
 ---
 
-## 🧠 Example
+🧠 Example
 
 ```bash
 $ cat notes.txt
@@ -54,7 +63,7 @@ $ cat notes.txt
 
 ---
 
-## 📁 Project Structure
+📁 Project Structure
 
 ```text
 CatGuard/
@@ -68,20 +77,21 @@ CatGuard/
 └── .gitignore
 ```
 
-## 💖 Support the Project
+💖 Support the Project
 
-If you enjoy **CatGuard** and want to help keep the project alive, you can support me here:
+If you enjoy CatGuard and want to help keep the project alive, you can support me here:
 
-[![DonationAlerts](https://img.shields.io/badge/DonationAlerts-Support-blue.svg)](https://www.donationalerts.com/r/FelineFantasy)
+https://img.shields.io/badge/DonationAlerts-Support-blue.svg
 
 Your support helps me:
-- 🐱 Add new features and cat interactions
-- 🛠️ Fix bugs and improve performance
-- ☕ Stay awake while coding at 4 AM
+
+· 🐱 Add new features and cat interactions
+· 🛠️ Fix bugs and improve performance
+· ☕ Stay awake while coding at 4 AM
 
 Every little bit is appreciated! ❤️
 
-## 👤 Author
+👤 Author
 
-- **FelineFantasy**
-- **License**: MIT
+· FelineFantasy
+· License: MIT
