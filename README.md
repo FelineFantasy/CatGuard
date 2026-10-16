@@ -28,7 +28,7 @@ chmod +x install.sh
 
 ---
 
-🎮 How It Works
+## 🎮 How It Works
 
 · pet — increases the love level by 1
 · love - shows the current level of love
@@ -37,7 +37,7 @@ chmod +x install.sh
 
 ---
 
-🧹 Uninstallation
+## 🧹 Uninstallation
 
 ```bash
 ./uninstall.sh
@@ -45,7 +45,7 @@ chmod +x install.sh
 
 ---
 
-🧠 Example
+## 🧠 Example
 
 ```bash
 $ cat notes.txt
@@ -63,7 +63,7 @@ $ cat notes.txt
 
 ---
 
-📁 Project Structure
+## 📁 Project Structure
 
 ```text
 CatGuard/
@@ -77,7 +77,7 @@ CatGuard/
 └── .gitignore
 ```
 
-💖 Support the Project
+## 💖 Support the Project
 
 If you enjoy CatGuard and want to help keep the project alive, you can support me here:
 
@@ -91,7 +91,7 @@ Your support helps me:
 
 Every little bit is appreciated! ❤️
 
-👤 Author
+## 👤 Author
 
 · FelineFantasy
 · License: MIT
