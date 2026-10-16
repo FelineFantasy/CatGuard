@@ -30,10 +30,10 @@ chmod +x install.sh
 
 ## 🎮 How It Works
 
-· pet — increases the love level by 1
-· love - shows the current level of love
-· cat <file> — requires 3 love units to read the file
-· grep, sed, awk, more, tail, head, tac, perl, strings — require 10 love units
+- pet — increases the love level by 1
+- love — shows the current level of love
+- cat <file> — requires 3 love units to read the file
+- grep, sed, awk, more, tail, head, tac, perl, strings — require 10 love units
 
 ---
 
@@ -85,13 +85,13 @@ https://img.shields.io/badge/DonationAlerts-Support-blue.svg
 
 Your support helps me:
 
-· 🐱 Add new features and cat interactions
-· 🛠️ Fix bugs and improve performance
-· ☕ Stay awake while coding at 4 AM
+- 🐱 Add new features and cat interactions
+- 🛠️ Fix bugs and improve performance
+- ☕ Stay awake while coding at 4 AM
 
 Every little bit is appreciated! ❤️
 
 ## 👤 Author
 
-· FelineFantasy
-· License: MIT
+- FelineFantasy
+- License: MIT
