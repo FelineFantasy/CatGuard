@@ -81,7 +81,7 @@ CatGuard/
 
 Если тебе нравится CatGuard и ты хочешь помочь проекту жить, ты можешь поддержать меня здесь:
 
-https://img.shields.io/badge/DonationAlerts-Поддержать-blue.svg
+[![DonationAlerts](https://img.shields.io/badge/DonationAlerts-Support-blue.svg)](https://www.donationalerts.com/r/FelineFantasy)
 
 Твоя поддержка поможет мне:
 
